@@ -7,10 +7,9 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;
-    //public float smoothSpeed = 0.125f;
     public Vector3 offset;
 
-    // Update is called after the Update() method.
+    // Update is called after the Update() method. Has the camera follow the position of the player with an offset.
     void LateUpdate()
     {
         transform.position = target.position + offset;

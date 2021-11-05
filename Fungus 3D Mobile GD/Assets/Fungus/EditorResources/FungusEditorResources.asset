@@ -14,26 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updateOnReloadScripts: 0
   add:
-    free: {fileID: 0}
-    pro: {fileID: 0}
+    free: {fileID: 2800000, guid: 24a867d6b4cdda04cb3aa3350f9ec7d0, type: 3}
+    pro: {fileID: 2800000, guid: 4e43c476b4a7a49a08c37378fb01ce99, type: 3}
   add_small:
-    free: {fileID: 0}
-    pro: {fileID: 0}
+    free: {fileID: 2800000, guid: 288aff1a0e5c14fd3a0039d24149df73, type: 3}
+    pro: {fileID: 2800000, guid: 64534dfaa17844231a9a9dd2df89d0db, type: 3}
   delete:
-    free: {fileID: 0}
-    pro: {fileID: 0}
+    free: {fileID: 2800000, guid: d6fc8a97e8a5b0947a49b780f787e504, type: 3}
+    pro: {fileID: 2800000, guid: 29c4d29b1678042a5b3516c732ccc507, type: 3}
   down:
-    free: {fileID: 0}
-    pro: {fileID: 0}
+    free: {fileID: 2800000, guid: 51a973f446c2e664582861480cce6215, type: 3}
+    pro: {fileID: 2800000, guid: 5a87a7d3683164a238377d948572805f, type: 3}
   duplicate:
-    free: {fileID: 0}
-    pro: {fileID: 0}
+    free: {fileID: 2800000, guid: c97f334c466215a4f93eff31de3c1591, type: 3}
+    pro: {fileID: 2800000, guid: 2f17490d993c84bd7872ef6588ffba47, type: 3}
   fungus_mushroom:
-    free: {fileID: 0}
-    pro: {fileID: 0}
+    free: {fileID: 2800000, guid: 1c99c9bf7557e23469ed5dfce00504c0, type: 3}
+    pro: {fileID: 2800000, guid: 6368c1c16ebb1694091262337e4f8c44, type: 3}
   up:
-    free: {fileID: 0}
-    pro: {fileID: 0}
+    free: {fileID: 2800000, guid: 8f1242ad894201f43b2b6d52fd990f77, type: 3}
+    pro: {fileID: 2800000, guid: 2a76a781db2994b33b83cd84b8835da7, type: 3}
   bullet_point:
     free: {fileID: 2800000, guid: 4ef739c68bb234717a60a2bb83ff8602, type: 3}
     pro: {fileID: 0}
