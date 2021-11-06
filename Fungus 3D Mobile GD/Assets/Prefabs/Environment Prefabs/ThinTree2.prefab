@@ -161,6 +161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1999106868136250077}
+  - component: {fileID: 7932132125239029663}
   m_Layer: 0
   m_Name: ThinTree2
   m_TagString: Untagged
@@ -190,6 +191,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7932132125239029663
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222043086079545447}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0726088, y: 2.5482168, z: 0.9951479}
+  m_Center: {x: -0.46560037, y: 1.238576, z: -0.9685612}
 --- !u!1 &1580418189654657125
 GameObject:
   m_ObjectHideFlags: 0
