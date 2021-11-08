@@ -46,5 +46,15 @@ public class CharacterMovement : MonoBehaviour
         {
             myFlowchart.ExecuteBlock("Susan");
         }
+
+        if (other.gameObject.tag == "Jack")
+        {
+            myFlowchart.ExecuteBlock("Jack");
+        }
+
+        if (other.gameObject.tag == "Nicholas")
+        {
+            myFlowchart.ExecuteBlock("Nicholas");
+        }
     }
 }
