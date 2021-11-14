@@ -14,11 +14,13 @@ public class CharacterMovement : MonoBehaviour
     private NavMeshAgent agent;
     private string groundTag = "Ground";
     public Flowchart myFlowchart;
+    private GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame

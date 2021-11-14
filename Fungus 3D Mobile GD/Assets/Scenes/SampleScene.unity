@@ -459,8 +459,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 174.0468, y: 363.421, z: 161.73718}
-  m_Center: {x: 1.5815526, y: -69.151344, z: -63.930286}
+  m_Size: {x: 195.00986, y: 363.421, z: 214.06177}
+  m_Center: {x: -2.915432, y: -69.15134, z: -66.47359}
 --- !u!195 &96548568
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1322,6 +1322,57 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2995054901369017421, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
   m_PrefabInstance: {fileID: 292744382}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &303460285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 303460287}
+  - component: {fileID: 303460286}
+  m_Layer: 0
+  m_Name: Character - Jack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &303460286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303460285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: JACK
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &303460287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303460285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &310394106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1977,6 +2028,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2f346270586e674ab4e6ba4242b7ea3, type: 3}
+--- !u!1 &486866936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486866938}
+  - component: {fileID: 486866937}
+  m_Layer: 0
+  m_Name: Character - Susan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &486866937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486866936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: SUSAN
+  nameColor: {r: 0.25051773, g: 1, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &486866938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486866936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &498479932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2212547958105143938, guid: 8c90d7b3cbbe38e488429636ef14d882, type: 3}
@@ -2547,6 +2649,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &838551216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 838551218}
+  - component: {fileID: 838551217}
+  m_Layer: 0
+  m_Name: Character - Nicholas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &838551217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838551216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: NICHOLAS
+  nameColor: {r: 0.6977986, g: 0.7264151, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &838551218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838551216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &849008084
 PrefabInstance:
@@ -4234,8 +4387,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Why hello there! You're exploring Fungus I see?
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 486866937}
+  portrait: {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4290,7 +4443,7 @@ MonoBehaviour:
   scrollPos: {x: -121, y: -15}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 216.8
+  blockViewHeight: 356.8
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -4300,8 +4453,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1444790219}
-  selectedCommands:
-  - {fileID: 1444790218}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -4344,8 +4496,8 @@ MonoBehaviour:
   storyText: It's a bit different especially in a 3D environment, but it's not hard
     to pick up.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 486866937}
+  portrait: {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4371,8 +4523,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Let us go on an adventure and we can both learn together!
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 486866937}
+  portrait: {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4444,8 +4596,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Well I hope you do well in your endeavors.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 303460286}
+  portrait: {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4471,8 +4623,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Oh, exploring Fungus I see?
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 303460286}
+  portrait: {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4498,8 +4650,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Hey what are you doing here?
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 303460286}
+  portrait: {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4528,7 +4680,7 @@ MonoBehaviour:
   collisionVar: {fileID: 0}
 --- !u!114 &1444790218
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4543,8 +4695,8 @@ MonoBehaviour:
   storyText: Anyways, forget about that dragon. Mushrooms are able to grow without
     any light from the sun! How cool is that?
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 838551217}
+  portrait: {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4556,7 +4708,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1444790219
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4585,7 +4737,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1444790220
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4599,8 +4751,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Also there was a dragon siting yesterday, did you hear about that?
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 838551217}
+  portrait: {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4612,7 +4764,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1444790221
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4626,8 +4778,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Did you know that mushrooms spread spores unlike vegetables and fruits?
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 838551217}
+  portrait: {fileID: 21300000, guid: 89ef5dafb602b684094a2fc1adbd991c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4639,7 +4791,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1444790222
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
