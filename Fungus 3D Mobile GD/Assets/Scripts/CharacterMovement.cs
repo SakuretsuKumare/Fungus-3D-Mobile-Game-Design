@@ -14,7 +14,6 @@ public class CharacterMovement : MonoBehaviour
     private NavMeshAgent agent;
     private string groundTag = "Ground";
     public Flowchart myFlowchart;
-    [SerializeField] bool canMove;
     private GameObject player;
 
     // Start is called before the first frame update
@@ -22,25 +21,21 @@ public class CharacterMovement : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("Player");
-        canMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        while (canMove)
+        // Click on the GROUND to move.
+        if (Input.GetMouseButtonDown(0)) // 0 is left click, 1 is right click, 2 is middle mouse button down.
         {
-            // Click on the GROUND to move.
-            if (Input.GetMouseButtonDown(0)) // 0 is left click, 1 is right click, 2 is middle mouse button down.
-            {
-                Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
 
-                if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                if (hit.collider.CompareTag(groundTag))
                 {
-                    if (hit.collider.CompareTag(groundTag))
-                    {
-                        agent.SetDestination(hit.point);
-                    }
+                    agent.SetDestination(hit.point);
                 }
             }
         }
