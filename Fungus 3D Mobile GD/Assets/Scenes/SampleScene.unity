@@ -326,11 +326,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2995054901369017421, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.36185217
+      value: -0.35901928
       objectReference: {fileID: 0}
     - target: {fileID: 2995054901369017421, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.7645545
+      value: -2.654
       objectReference: {fileID: 0}
     - target: {fileID: 2995054901369017421, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -338,7 +338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2995054901369017421, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.97455364
+      value: 0.9988902
       objectReference: {fileID: 0}
     - target: {fileID: 2995054901369017421, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
       propertyPath: m_LocalRotation.x
@@ -350,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2995054901369017421, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.22415446
+      value: 0.047099214
       objectReference: {fileID: 0}
     - target: {fileID: 2995054901369017421, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -362,7 +362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2995054901369017421, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 25.906
+      value: 5.399
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c47ff407c3e881943aa6329e6f171fcc, type: 3}
@@ -513,7 +513,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 963194227}
   myFlowchart: {fileID: 1444790208}
-  speed: 2
 --- !u!4 &96548573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 26238c947f2db684e96d84f7b0330910, type: 3}
@@ -2375,7 +2374,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.8571403, b: 0.5235849, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
