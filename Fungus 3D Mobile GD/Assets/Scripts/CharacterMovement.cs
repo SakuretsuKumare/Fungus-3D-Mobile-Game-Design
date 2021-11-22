@@ -49,19 +49,39 @@ public class CharacterMovement : MonoBehaviour
             myFlowchart.ExecuteBlock("Susan");
         }
 
-        if (other.gameObject.tag == "Jack")
+        if (other.gameObject.tag == "Barold")
         {
-            myFlowchart.ExecuteBlock("Jack");
+            myFlowchart.ExecuteBlock("Barold");
         }
 
-        if (other.gameObject.tag == "Nicholas")
+        if (other.gameObject.tag == "Jimothy")
         {
-            myFlowchart.ExecuteBlock("Nicholas");
+            myFlowchart.ExecuteBlock("Jimothy");
+        }
+
+        if (other.gameObject.tag == "Courtney")
+        {
+            myFlowchart.ExecuteBlock("Courtney");
         }
 
         if (other.gameObject.tag == "Flower")
         {
             myFlowchart.ExecuteBlock("PickedFlower");
+        }
+
+        if (other.gameObject.tag == "Bug")
+        {
+            myFlowchart.ExecuteBlock("CollectedBug");
+        }
+
+        if (other.gameObject.tag == "Mushroom")
+        {
+            myFlowchart.ExecuteBlock("CollectedMushroom");
+        }
+
+        if (other.gameObject.tag == "Dirt")
+        {
+            myFlowchart.ExecuteBlock("CollectedDirt");
         }
     }
 }

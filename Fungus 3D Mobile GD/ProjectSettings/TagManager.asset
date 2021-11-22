@@ -5,10 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - Susan
-  - Jack
-  - Nicholas
   - Flower
+  - Barold
+  - Jimothy
+  - Bug
+  - Elliandra
+  - Mushroom
+  - Courtney
+  - Dirt
   layers:
   - Default
   - TransparentFX
