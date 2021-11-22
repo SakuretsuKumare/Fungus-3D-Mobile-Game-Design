@@ -44,9 +44,9 @@ public class CharacterMovement : MonoBehaviour
     // If the player walks into an NPC collider, it starts the corresponding dialogue.
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Susan")
+        if (other.gameObject.tag == "Elliandra")
         {
-            myFlowchart.ExecuteBlock("Susan");
+            myFlowchart.ExecuteBlock("Elliandra");
         }
 
         if (other.gameObject.tag == "Barold")
