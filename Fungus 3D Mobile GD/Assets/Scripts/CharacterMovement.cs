@@ -15,27 +15,34 @@ public class CharacterMovement : MonoBehaviour
     private string groundTag = "Ground";
     public Flowchart myFlowchart;
     private GameObject player;
+    public bool canMove;
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("Player");
+        myFlowchart.SetBooleanVariable("CanMove", canMove);
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Click on the GROUND to move.
-        if (Input.GetMouseButtonDown(0)) // 0 is left click, 1 is right click, 2 is middle mouse button down.
+        canMove = myFlowchart.GetBooleanVariable("CanMove");
+        // If the player can move...
+        if (canMove == true)
         {
-            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            // Click on the GROUND to move.
+            if (Input.GetMouseButtonDown(0)) // 0 is left click, 1 is right click, 2 is middle mouse button down.
             {
-                if (hit.collider.CompareTag(groundTag))
+                Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+
+                if (Physics.Raycast(ray, out hit, Mathf.Infinity))
                 {
-                    agent.SetDestination(hit.point);
+                    if (hit.collider.CompareTag(groundTag))
+                    {
+                        agent.SetDestination(hit.point);
+                    }
                 }
             }
         }
@@ -57,6 +64,11 @@ public class CharacterMovement : MonoBehaviour
         if (other.gameObject.tag == "Jimothy")
         {
             myFlowchart.ExecuteBlock("Jimothy");
+        }
+
+        if (other.gameObject.tag == "Professor Shmeckldorf")
+        {
+            myFlowchart.ExecuteBlock("Professor");
         }
 
         if (other.gameObject.tag == "Courtney")
