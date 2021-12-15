@@ -5416,7 +5416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 96548573}
-  offset: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 7.5, z: 0}
 --- !u!1001 &788233749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7237,7 +7237,7 @@ GameObject:
   - component: {fileID: 1081208623}
   - component: {fileID: 1081208622}
   - component: {fileID: 1081208621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
